@@ -1,0 +1,6 @@
+{
+  "name": "Vercel MCP Connect",
+  "description": "Connect, configure, test, and inspect Vercel Model Context Protocol (MCP) servers and tools for Claude, Cursor, Copilot, and custom AI agents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  background-color: #0c1921;
+  color: #eaf3f5;
+  font-family: 'Prompt', system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+  margin: 0;
+}
+
+button, input, select {
+  font-family: inherit;
+}
+
+input[type="range"] {
+  accent-color: #6cd8df;
+}
+
+/* Custom scrollbar for sidebar */
+aside::-webkit-scrollbar {
+  width: 5px;
+}
+aside::-webkit-scrollbar-track {
+  background: #0c1921;
+}
+aside::-webkit-scrollbar-thumb {
+  background: #2a414e;
+  border-radius: 4px;
+}
+aside::-webkit-scrollbar-thumb:hover {
+  background: #476878;
+}
